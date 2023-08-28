@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(255, 225, 255);
+    font-family: 'Dancing Script', cursive;
+   overflow-x: hidden;
+   height: 100%;
+   
+   
+}
+
+h1 {
+    color: #EA1C2C;
+    font-size: 2rem;
+}
+
+#mainNavBar{
+    font-size: 1.2rem;
+    font-family: 100;
+}
+
+#mainNavBar .nav-link{
+    color: #c9ab00;
+    font-family: sans-serif;
+}
+
+#mainNavBar .nav-link:hover{
+    color: #f4e48c;
+}
+
+
+.navbar-brand{
+    color: #c9ab00 !important;
+    font-size: larger;
+ 
+}
+
+
+
+
+@media(max-width: 1500px){
+  #headingGroup h2{
+   
+         font-weight: 100;
+         font-size: 3rem;
+  }
+}
+
+
+@media(max-width: 450px){
+    img{
+        width: 100%;
+        height: 500px;
+        
+        margin-left: 6.5px;
+        border: 5px solid rgb(118, 118, 21);
+    }
+
+    .footer{
+        padding-left: 5em
+    }
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.lead{
+    font-size: 25px;
+    font-weight: 500;
+    color: #9e8601;
+    border-bottom: 3px solid #9e8601;
+    transition: .3s ease-in;
+}
+
+img{
+  border: 5px solid #9e8601;
+
+}
+
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    border-bottom: 5px solid lightgoldenrodyellow;
+    transition: background 500ms ;
+}
+
+.lead:hover{
+    color: #e7fe72;
+    background-color:#EA1C2C
+   ;
+}
+
+.footer{
+    font-family: sans-serif;
+    background-color: rgb(222, 192, 222) !important;
+    border-top: solid 5px lightgoldenrodyellow;
+   width: 100%;
+   position: absolute;
+   font-size: 1.5rem;
+   text-align: center;
+   
+}
